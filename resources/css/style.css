@@ -143,11 +143,25 @@ nav li {
   color: #399bd1;
 }
 
+/* --- Projects --- */
+.projects {
+  margin-bottom: 5.85rem;
+}
+
 /* ===== FOOTER ----- */
 footer {
   background-color: #f3f3f3;
 }
 .footer-content {
   text-align: center;
+  padding: 5.2rem 0;
+}
+footer h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+footer p {
+  margin: auto;
+  margin-top: 1.4rem;
   width: 42rem;
 }
