@@ -98,8 +98,12 @@ nav li {
   float: right;
 }
 
-.mobile-nav {
+.nav-mobile {
+  float:left;
   display: none;
+}
+.nav-mobile ul.nav.navbar-nav li {
+  display: inline-block;
 }
 
 
@@ -151,11 +155,41 @@ nav li {
   width: 100%;
   top: -16rem;
 }
-@@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+  .nav-desktop {
+    display:none !important;
+  }
+  .nav-mobile {
+    display: inline;
+  }
   .jumbotron h1 {
     font-size: 5.7rem;
   }
 }
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 5rem;
+  }
+  .image-container {
+    height: 15rem;
+  }
+  .img-project2, .img-project3 {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .jumbotron h1 {
+    font-size: 3.7rem;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff;
+  }
+  .image-container {
+    height: 15rem;
+  }
+  .btn-relative {
+    margin-top: 3.2rem;
+  }
+}
+
 
 
 /* --- Featured Product*/
@@ -198,4 +232,10 @@ footer p {
   margin: auto;
   margin-top: 1.4rem;
   width: 42rem;
+}
+@media only screen and (max-width: 550px) {
+  footer p{
+    width: auto;
+    margin-left: 0.5rem;
+  }
 }
