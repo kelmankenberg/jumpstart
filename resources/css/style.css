@@ -48,7 +48,7 @@ img {
   transition: all .2s ease-in-out;
 }
 .grow:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: transform .5s,
               opacity .5s;
   opacity
@@ -180,7 +180,7 @@ nav li {
 @media only screen and (max-width: 425px) {
   .jumbotron h1 {
     font-size: 3.7rem;
-    text-shadow: 0 0 5px #fff, 0 0 5px #fff;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff;
   }
   .image-container {
     height: 15rem;
@@ -216,25 +216,25 @@ nav li {
   margin-bottom: 5.85rem;
 }
 
-/* ===== FOOTER ----- */
-footer {
+/* ===== Having Trouble ----- */
+.having-trouble {
   background-color: #f3f3f3;
 }
-.footer-content {
+.having-trouble {
   text-align: center;
   padding: 5.2rem 0;
 }
-footer h1 {
+.having-trouble h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
-footer p {
+.having-trouble p {
   margin: auto;
   margin-top: 1.4rem;
   width: 42rem;
 }
 @media only screen and (max-width: 550px) {
-  footer p{
+  .having-trouble p{
     width: auto;
     margin-left: 0.5rem;
   }
