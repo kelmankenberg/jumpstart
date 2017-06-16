@@ -19,6 +19,10 @@
 $(document).ready(function(){
   $('.carousel').slick({
     autoplay: true,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    draggable: false,
+    pauseOnHover: true,
+    autoplaySpeed: 5000,
+    arrows: false // Get rid of that pesky horizontal scrollbar
   });
 });
